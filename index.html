@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+
+<body>
+ <div id="header">
+    <div class="container">
+      <nav>
+        <img src="assets/img/logo-white-removebg-preview.png" class="logo" alt="" srcset="">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Frontend-Developer</p>
+        <h1>Hi, I'm <span>Kishan</span> <br> from NIT <br>JAMSHEDPUR</h1>
+      </div>
+    </div>
+ </div>  
+ 
+ <!-- ------about---- -->
+ <div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="assets/img/My pic.jpeg" alt="" srcset="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corporis aut repellendus excepturi voluptates illo ad autem placeat ut culpa, sit mollitia, saepe itaque perspiciatis optio iste delectus quisquam incidunt. Accusamus perferendis ab rem.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>HTML/ CSS/ JS</span><br>Designing Web Interface</li>
+            <li><span>React</span><br>Designing Web Interface</li>
+            <li><span>Web Development</span><br>Designing Web Interface</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Intern @CodSoft</span><br>Designing Web Interface</li>
+            <li><span>Freelancer</span><br>Designing Web Interface</li>
+            <li><span>Web Development</span><br>Designing Web Interface</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>NIT JAMSHEDPUR</span><br>B-Tech (2021-25)</li>
+            <li><span>Deoghar College Deoghar</span><br>Intermediate (2018-20)</li>
+            <li><span>Suprabha Shiksha Sthali</span><br>Matriculation (2007-2018)</li>
+          </ul>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+ </div>
+
+ 
+
+ <!-- Services-->
+ <section class="page-section" id="services">
+  <div class="container" style="margin-bottom: 35px;">
+      <div class="text-center">
+        <h1 class="sub-title">Our Services</h1>
+          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+      </div>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  
+      </div>
+      <div class="carousel-inner" style="width: 100%; height: 100%;">
+        <div class="carousel-item active">
+          <img src="assets/img/2a06db012443682c7475bc3e71abf17dd4ad1803.webp" class="d-block w-100 " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/87ab463a31f857d626b0595c57ff638055a3b2a5 (1).jpg" class="d-block w-100 " alt="...">
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+</section>
+
+<!-- Portfolio -->
+<section class="Portfolio" id="portfolio" style="margin-top: 55px;">
+  <div class="text-center">
+    <h1 class="sub-title">Portfolio</h1>
+    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+</div>
+  <div class="container-2" style="padding: 0 60px; padding-top: 10px; padding-bottom: 35px;">
+    
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <a href="https://github.com/Kishankumar2100/street-sports" target="_blank">
+      <img src="assets/img/Screenshot (49).png"  class="card-img-top" > 
+      <div class="card-body">
+        <h5 class="card-title">Street Sports</h5></a>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <a href="https://icmmmi.in/" target="_blank">
+      <img src="assets/img/Screenshot (55).png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ICMMMI-2024</h5> </a>
+        <p class="card-text">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <a href="https://kishankumar2100.github.io/Dream-Events/" target="_blank">
+      <img src="assets/img/Screenshot (57).png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dream Event</h5></a>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <a href="https://kishankumar2100.github.io/Event-Calendar/" target="_blank">
+      <img src="assets/img/Screenshot (58).png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Event Calendar</h5></a>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- Contact -->
+<div id="contact" style="margin: 40px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i>kumarkishan2100@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>9006318531</p>
+        <div class="social-icons">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+      <a href="" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea type="Message" rows="6" placeholder="Your Message" ></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script src="index.js"></script>
+  </body>
+</html>
